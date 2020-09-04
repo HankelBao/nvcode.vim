@@ -170,7 +170,7 @@ let g:terminal_ansi_colors = [
 
 " Syntax Groups (descriptions and ordering from `:h w18`) {{{
 
-call s:h("Comment", { "fg": s:green, "gui": "italic", "cterm": "italic" }) " any comment
+call s:h("Comment", { "fg": s:comment_grey, "gui": "italic", "cterm": "italic" }) " any comment
 call s:h("Constant", { "fg": s:cyan }) " any constant
 call s:h("String", { "fg": s:orange }) " a string constant: "this is a string"
 call s:h("Character", { "fg": s:orange }) " a character constant: 'c', '\n'
