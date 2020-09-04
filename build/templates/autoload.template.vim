@@ -1,6 +1,6 @@
-" [onedark.vim](https://github.com/joshdick/onedark.vim/)
+" [nvcode.vim](https://github.com/joshdick/nvcode.vim/)
 
-let s:overrides = get(g:, "onedark_color_overrides", {})
+let s:overrides = get(g:, "nvcode_color_overrides", {})
 
 let s:colors = {
       \ "red": get(s:overrides, "red", { "gui": "#D16969", "cterm": "204", "cterm16": "1" }),
@@ -27,7 +27,7 @@ let s:colors = {
       \ "vertsplit": get(s:overrides, "vertsplit", { "gui": "#181A1F", "cterm": "59", "cterm16": "15" }),
       \}
 
-function! onedark#GetColors()
+function! nvcode#GetColors()
   return s:colors
 endfunction
 

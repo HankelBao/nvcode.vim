@@ -32,7 +32,7 @@ const specialColors = Object.freeze({
 const colors = Object.assign({}, baseColors, specialColors);
 
 const templateMap = Object.freeze({
-  "templates/autoload.template.vim": "../autoload/onedark.vim",
+  "templates/autoload.template.vim": "../autoload/nvcode.vim",
   "templates/One Dark.Xresources": "../term/One Dark.Xresources",
 });
 

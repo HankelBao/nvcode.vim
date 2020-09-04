@@ -6,8 +6,8 @@
 
   Thank you!
 -->
-- [ ] I have carefully read and followed the [Installation section of the README](https://github.com/joshdick/onedark.vim#installation)
-- [ ] I have searched through the [closed issues](https://github.com/joshdick/onedark.vim/issues?q=is%3Aissue+is%3Aclosed) to see if there is an existing solution for my issue
+- [ ] I have carefully read and followed the [Installation section of the README](https://github.com/joshdick/nvcode.vim#installation)
+- [ ] I have searched through the [closed issues](https://github.com/joshdick/nvcode.vim/issues?q=is%3Aissue+is%3Aclosed) to see if there is an existing solution for my issue
 
 ### Terminal Emulator Info
 

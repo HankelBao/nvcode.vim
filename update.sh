@@ -1,2 +1,2 @@
 #!/bin/bash
-git pull  https://github.com/joshdick/onedark.vim.git
+git pull  https://github.com/joshdick/nvcode.vim.git
