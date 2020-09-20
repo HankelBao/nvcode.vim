@@ -453,7 +453,6 @@ call s:h("markdownH3", { "fg": s:blue })
 call s:h("markdownH4", { "fg": s:blue })
 call s:h("markdownH5", { "fg": s:blue })
 call s:h("markdownH6", { "fg": s:blue })
-call s:h("mkdHeading", { "fg": s:blue })
 call s:h("markdownHeadingDelimiter", { "fg": s:red })
 call s:h("markdownHeadingRule", { "fg": s:comment_grey })
 call s:h("markdownId", { "fg": s:purple })
@@ -599,8 +598,8 @@ call s:h("NeomakeInfoSign", { "fg": s:blue })
 
 " plasticboy/vim-markdown (keep consistent with Markdown, above)
 call s:h("mkdDelimiter", { "fg": s:purple })
-call s:h("mkdHeading", { "fg": s:red })
-call s:h("mkdLink", { "fg": s:blue })
+call s:h("mkdHeading", { "fg": s:blue })
+call s:h("mkdLink", { "fg": s:light_blue })
 call s:h("mkdURL", { "fg": s:cyan, "gui": "underline", "cterm": "underline" })
 
 " tpope/vim-fugitive
