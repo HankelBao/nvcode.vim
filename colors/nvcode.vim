@@ -288,7 +288,7 @@ highlight TSNumber guifg=#B5CEA8
 highlight TSBoolean guifg=#569CD6
 highlight TSFloat guifg=#B5CEA8
 highlight TSAnnotation guifg=#DCDCAA
-highlight TSAttribute guifg=#FF00FF
+highlight TSAttribute guifg=#4EC9B0
 highlight TSNamespace guifg=#FF00FF
 
 
