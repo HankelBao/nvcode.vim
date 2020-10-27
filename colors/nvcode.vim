@@ -324,7 +324,7 @@ highlight TSVariable guifg=#9CDCFE
 highlight TSVariableBuiltin guifg=#9CDCFE
 
 " Text
-highlight TSText guifg=#FF00FF
+highlight TSText guifg=#9CDCFE
 highlight TSStrong guifg=#FF00FF
 highlight TSEmphasis guifg=#FF00FF
 highlight TSUnderline guifg=#FF00FF
