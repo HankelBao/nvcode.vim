@@ -315,7 +315,7 @@ highlight TSKeywordOperator guifg=#569CD6
 highlight TSOperator guifg=#ABB2BF
 highlight TSException guifg=#C586C0
 highlight TSType guifg=#4EC9B0
-highlight TSTypeBuiltin guifg=#FF00FF
+highlight TSTypeBuiltin guifg=#4EC9B0
 highlight TSStructure guifg=#FF00FF
 highlight TSInclude guifg=#C586C0
 
