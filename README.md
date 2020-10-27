@@ -1,5 +1,7 @@
 # NVCode Colorscheme
 
+![React pic](./assets/react.png)
+
 This colorscheme attempts mirror VSCodes dark+ theme
 
 ## Installing
@@ -30,3 +32,5 @@ if (has("termguicolors"))
     hi LineNr ctermbg=NONE guibg=NONE
 endif
 ```
+
+![Python pic](./assets/react.png)
