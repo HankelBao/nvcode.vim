@@ -268,27 +268,6 @@ call s:h("VisualNOS", { "bg": s:visual_grey }) " Visual mode selection when vim 
 call s:h("WarningMsg", { "fg": s:yellow }) " warning messages
 call s:h("WildMenu", { "fg": s:black, "bg": s:blue }) " current match in 'wildmenu' completion
 
-
-
-" Neovim Treesitter
-" highlight! link TSAnnotation '#378989'
-" highlight! link TSAttribute NightflyBlue
-" highlight! link TSConstant NightflyPurple
-" highlight! link TSConstBuiltin NightflyGreen
-" highlight! link TSConstMacro NightflyViolet
-" highlight! link TSConstructor NightflyEmerald
-" highlight! link TSError NightflyRed
-" highlight! link TSFuncBuiltin NightflyBlue
-" highlight! link TSFuncMacro NightflyBlue
-" highlight! link TSInclude NightflyWatermelon
-" highlight! link TSKeywordOperator NightflyViolet
-" highlight! link TSNamespace NightflyIndigo
-" highlight! link TSParameter NightflyWhite
-" highlight! link TSPunctSpecial NightflyWatermelon
-" highlight! link TSTag NightflyBlue
-" highlight! link TSTagDelimiter NightflyGreen
-" highlight! link TSVariableBuiltin NightflyGreen
-
 " Misc
 highlight TSError guifg=#F44747
 highlight TSPunctDelimiter guifg=#ABB2BF
@@ -408,23 +387,23 @@ call s:h("debugBreakpoint", { "fg": s:black, "bg": s:red }) " a breakpoint
 " call s:h("goTypeDecl", { "fg": s:purple })
 
 " " HTML (keep consistent with Markdown, below)
-" call s:h("htmlArg", { "fg": s:dark_yellow })
-" call s:h("htmlBold", { "fg": s:dark_yellow, "gui": "bold", "cterm": "bold" })
-" call s:h("htmlEndTag", { "fg": s:white })
-" call s:h("htmlH1", { "fg": s:blue })
-" call s:h("htmlH2", { "fg": s:blue })
-" call s:h("htmlH3", { "fg": s:blue })
-" call s:h("htmlH4", { "fg": s:blue })
-" call s:h("htmlH5", { "fg": s:blue })
-" call s:h("htmlH6", { "fg": s:blue })
-" call s:h("htmlItalic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-" call s:h("htmlLink", { "fg": s:cyan, "gui": "underline", "cterm": "underline" })
-" call s:h("htmlSpecialChar", { "fg": s:dark_yellow })
-" call s:h("htmlSpecialTagName", { "fg": s:blue })
-" call s:h("htmlTag", { "fg": s:white })
-" call s:h("htmlTagN", { "fg": s:blue })
-" call s:h("htmlTagName", { "fg": s:blue })
-" call s:h("htmlTitle", { "fg": s:white })
+call s:h("htmlArg", { "fg": s:dark_yellow })
+call s:h("htmlBold", { "fg": s:dark_yellow, "gui": "bold", "cterm": "bold" })
+call s:h("htmlEndTag", { "fg": s:white })
+call s:h("htmlH1", { "fg": s:blue })
+call s:h("htmlH2", { "fg": s:blue })
+call s:h("htmlH3", { "fg": s:blue })
+call s:h("htmlH4", { "fg": s:blue })
+call s:h("htmlH5", { "fg": s:blue })
+call s:h("htmlH6", { "fg": s:blue })
+call s:h("htmlItalic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("htmlLink", { "fg": s:cyan, "gui": "underline", "cterm": "underline" })
+call s:h("htmlSpecialChar", { "fg": s:dark_yellow })
+call s:h("htmlSpecialTagName", { "fg": s:blue })
+call s:h("htmlTag", { "fg": s:white })
+call s:h("htmlTagN", { "fg": s:blue })
+call s:h("htmlTagName", { "fg": s:blue })
+call s:h("htmlTitle", { "fg": s:white })
 
 " " JavaScript
 " call s:h("javaScriptBraces", { "fg": s:white })
@@ -531,29 +510,29 @@ call s:h("debugBreakpoint", { "fg": s:black, "bg": s:red }) " a breakpoint
 " call s:h("lessClass", { "fg": s:dark_yellow })
 
 " " Markdown (keep consistent with HTML, above)
-" call s:h("markdownBlockquote", { "fg": s:comment_grey })
-" call s:h("markdownBold", { "fg": s:dark_yellow, "gui": "bold", "cterm": "bold" })
-" call s:h("markdownCode", { "fg": s:green })
-" call s:h("markdownCodeBlock", { "fg": s:green })
-" call s:h("markdownCodeDelimiter", { "fg": s:green })
-" call s:h("markdownH1", { "fg": s:blue })
-" call s:h("markdownH2", { "fg": s:blue })
-" call s:h("markdownH3", { "fg": s:blue })
-" call s:h("markdownH4", { "fg": s:blue })
-" call s:h("markdownH5", { "fg": s:blue })
-" call s:h("markdownH6", { "fg": s:blue })
-" call s:h("markdownHeadingDelimiter", { "fg": s:red })
-" call s:h("markdownHeadingRule", { "fg": s:comment_grey })
-" call s:h("markdownId", { "fg": s:purple })
-" call s:h("markdownIdDeclaration", { "fg": s:blue })
-" call s:h("markdownIdDelimiter", { "fg": s:purple })
-" call s:h("markdownItalic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-" call s:h("markdownLinkDelimiter", { "fg": s:purple })
-" call s:h("markdownLinkText", { "fg": s:blue })
-" call s:h("markdownListMarker", { "fg": s:red })
-" call s:h("markdownOrderedListMarker", { "fg": s:red })
-" call s:h("markdownRule", { "fg": s:comment_grey })
-" call s:h("markdownUrl", { "fg": s:cyan, "gui": "underline", "cterm": "underline" })
+call s:h("markdownBlockquote", { "fg": s:comment_grey })
+call s:h("markdownBold", { "fg": s:dark_yellow, "gui": "bold", "cterm": "bold" })
+call s:h("markdownCode", { "fg": s:green })
+call s:h("markdownCodeBlock", { "fg": s:green })
+call s:h("markdownCodeDelimiter", { "fg": s:green })
+call s:h("markdownH1", { "fg": s:blue })
+call s:h("markdownH2", { "fg": s:blue })
+call s:h("markdownH3", { "fg": s:blue })
+call s:h("markdownH4", { "fg": s:blue })
+call s:h("markdownH5", { "fg": s:blue })
+call s:h("markdownH6", { "fg": s:blue })
+call s:h("markdownHeadingDelimiter", { "fg": s:red })
+call s:h("markdownHeadingRule", { "fg": s:comment_grey })
+call s:h("markdownId", { "fg": s:purple })
+call s:h("markdownIdDeclaration", { "fg": s:blue })
+call s:h("markdownIdDelimiter", { "fg": s:purple })
+call s:h("markdownItalic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("markdownLinkDelimiter", { "fg": s:purple })
+call s:h("markdownLinkText", { "fg": s:blue })
+call s:h("markdownListMarker", { "fg": s:red })
+call s:h("markdownOrderedListMarker", { "fg": s:red })
+call s:h("markdownRule", { "fg": s:comment_grey })
+call s:h("markdownUrl", { "fg": s:cyan, "gui": "underline", "cterm": "underline" })
 
 " " Perl
 " call s:h("perlFiledescRead", { "fg": s:green })
