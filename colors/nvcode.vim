@@ -324,13 +324,13 @@ highlight TSVariable guifg=#9CDCFE
 highlight TSVariableBuiltin guifg=#9CDCFE
 
 " Text
-highlight TSText guifg=#9CDCFE
-highlight TSStrong guifg=#FF00FF
-highlight TSEmphasis guifg=#FF00FF
-highlight TSUnderline guifg=#FF00FF
-highlight TSTitle guifg=#FF00FF
-highlight TSLiteral guifg=#FF00FF
-highlight TSURI guifg=#FF00FF
+highlight TSText guifg=#FFFF00
+highlight TSStrong guifg=#FFFF00
+highlight TSEmphasis guifg=#FFFF00
+highlight TSUnderline guifg=#FFFF00
+highlight TSTitle guifg=#FFFF00
+highlight TSLiteral guifg=#FFFF00
+highlight TSURI guifg=#FFFF00
 
 " Tags
 highlight TSTag guifg=#569CD6
