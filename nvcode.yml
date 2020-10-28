@@ -45,7 +45,7 @@ highlights:
   Conditional: "purple"
   Repeat: "purple"
   Label: "light_blue"
-  Operator: "white"
+  Operator: "purple"
   Keyword: "blue"
   Exception: "purple"
   PreProc: "yellow"
