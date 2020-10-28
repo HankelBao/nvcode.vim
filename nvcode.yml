@@ -229,6 +229,17 @@ highlights:
   CocExplorerFileHidden: "line_grey"
   CocExplorerHelpLine: "purple"
   # -- END CoC --
+
+  # -- START Easymotion --
+  EasyMotionTarget: "vivid_blue"
+  EasyMotionTarget2First: "vivid_blue"
+  EasyMotionTarget2Second: "vivid_blue"
+  EasyMotionShade: ""
+  # EasyMotionIncSearch:
+  # EasyMotionMoveHL:
+
+  # -- END Easymotion --
+
   # -- START Startify --
   StartifyNumber: "light_green"
   StartifySelect: "green"
