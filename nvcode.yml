@@ -221,6 +221,9 @@ highlights:
   CocExplorerFileRoot: "cyan"
   CocExplorerBufferFullPath: "line_grey"
   CocExplorerFileFullPath: "line_grey"
+  CocExplorerBufferReadonly: "purple"
+  CocExplorerBufferModified: "purple"
+  CocExplorerBufferNameVisible: "orange"
   # -- END CoC --
   # -- START Startify --
   StartifyNumber: "light_green"
