@@ -222,6 +222,19 @@ highlights:
   CocExplorerBufferFullPath: "line_grey"
   CocExplorerFileFullPath: "line_grey"
   # -- END CoC --
+  # -- START Startify --
+  StartifyNumber: "light_green"
+  StartifySelect: "green"
+  StartifyBracket: "blue"
+  StartifySpecial: "cyan"
+  StartifyVar: "vivid_blue"
+  StartifyPath: "purple"
+  StartifyFile: "blue"
+  StartifySlash: "blue"
+  StartifyHeader: "green"
+  StartifySection: "cyan"
+  StartifyFooter: "green"
+  # -- START Startify --
   # old stuff
   diffAdded: "green"
   diffRemoved: "red"
