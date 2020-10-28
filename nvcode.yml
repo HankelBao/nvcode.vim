@@ -231,9 +231,9 @@ highlights:
   # -- END CoC --
 
   # -- START Easymotion --
-  EasyMotionTarget: "red"
-  EasyMotionTarget2First: "red"
-  EasyMotionTarget2Second: "red"
+  EasyMotionTarget: "red - b"
+  EasyMotionTarget2First: "red - b"
+  EasyMotionTarget2Second: "red - b"
   EasyMotionShade: ""
   # EasyMotionIncSearch:
   # EasyMotionMoveHL:
