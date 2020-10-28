@@ -234,7 +234,13 @@ highlights:
   StartifyHeader: "green"
   StartifySection: "purple"
   StartifyFooter: "green"
-  # -- START Startify --
+  # -- END Startify --
+  # -- START WhichKey --
+  WhichKey: "purple"
+  WhichKeySeperator: "green"
+  WhichKeyGroup: "vivid_blue"
+  WhichKeyDesc: "blue"
+  # -- END WhichKey --
   # old stuff
   diffAdded: "green"
   diffRemoved: "red"
