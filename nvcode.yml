@@ -231,9 +231,9 @@ highlights:
   # -- END CoC --
 
   # -- START Easymotion --
-  EasyMotionTarget: "white vivid_blue b"
-  EasyMotionTarget2First: "white vivid_blue b"
-  EasyMotionTarget2Second: "red vivid_blue b"
+  EasyMotionTarget: "error_red - b"
+  EasyMotionTarget2First: "error_red - b"
+  EasyMotionTarget2Second: "error_red - b"
   EasyMotionShade: ""
   # EasyMotionIncSearch:
   # EasyMotionMoveHL:
