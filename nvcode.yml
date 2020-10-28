@@ -21,7 +21,7 @@ palette:
   cyan: "#4EC9B0"
   white: "#ABB2BF"
   black: "#1E1E1E"
-  comment_grey: "#5C6370"
+  line_grey: "#5C6370"
   gutter_fg_grey: "#4B5263"
   cursor_grey: "#2C323C"
   visual_grey: "#3E4452"
@@ -32,7 +32,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "comment_grey - i"
+  Comment: "green - i"
   Constant: "yellow"
   String: "orange - i"
   Character: "orange"
@@ -59,13 +59,14 @@ highlights:
   Structure: "yellow"
   Typedef: "yellow"
   Special: "blue - i"
-  SpecialComment: "comment_grey"
+  SpecialComment: "line_grey"
   Error: "error_red - br"
   Todo: "purple - bi"
   Underlined: "cyan . u"
   Cursor: "- - r"
 
   ColorColumn: "- cursor_grey"
+  CursorLineNr: "white - b"
   SignColumn: "- bg"
   Conceal: ""
   CursorColumn: "- cursor_grey"
@@ -77,8 +78,8 @@ highlights:
   DiffText: "black yellow"
   ErrorMsg: "error_red"
   VertSplit: "vertsplit"
-  Folded: "comment_grey"
-  IncSearch: "yellow comment_grey"
+  Folded: "line_grey"
+  IncSearch: "yellow line_grey"
   LineNr: "gutter_fg_grey"
   MatchParen: "blue - u"
   NonText: "special_grey"
@@ -95,10 +96,10 @@ highlights:
   SpellLocal: "dark_yellow"
   SpellRare: "dark_yellow"
   StatusLine: "white cursor_grey"
-  StatusLineNC: "comment_grey"
+  StatusLineNC: "line_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
-  TabLine: "comment_grey"
+  TabLine: "line_grey"
   TabLineSel: "white"
   TabLineFill: "- bg"
   Terminal: "white black"
@@ -165,7 +166,7 @@ highlights:
   TSURI: "#FFFF00"
   # Tags
   TSTag: "blue"
-  TSTagDelimiter: "comment_grey"
+  TSTagDelimiter: "line_grey"
   # -- END Treesitter --
   # -- Start Languages --
   # HTML (keep consistent with Markdown, below)
@@ -186,6 +187,7 @@ highlights:
   htmlTagN: "blue"
   htmlTagName: "blue"
   htmlTitle: "white"
+
   # Markdown (keep consistent with HTML, above)
   # call s:h("markdownBlockquote", { "fg": s:comment_grey })
   # call s:h("markdownBold", { "fg": s:dark_yellow, "gui": "bold", "cterm": "bold" })
@@ -227,6 +229,9 @@ highlights:
   # ToolbarButton: "suvagray - r"
   # debugPc: "- bg_cyan"
   # debugBreakpoint: "red - r"
+  # CoC
+  CocExplorerIndentLine: "line_grey"
+  CocExplorerBufferRoot: "cyan"
 # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
 
 # Debug
