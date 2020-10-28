@@ -224,6 +224,9 @@ highlights:
   CocExplorerBufferReadonly: "purple"
   CocExplorerBufferModified: "purple"
   CocExplorerBufferNameVisible: "orange"
+  CocExplorerFileReadonly: "purple"
+  CocExplorerFileModified: "purple"
+  CocExplorerFileHidden: "line_grey"
   # -- END CoC --
   # -- START Startify --
   StartifyNumber: "light_green"
