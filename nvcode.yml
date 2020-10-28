@@ -79,6 +79,7 @@ highlights:
   ErrorMsg: "error_red"
   VertSplit: "vertsplit"
   Folded: "line_grey"
+  FoldColumn: ""
   IncSearch: "yellow line_grey"
   LineNr: "gutter_fg_grey"
   MatchParen: "blue - u"
@@ -168,7 +169,7 @@ highlights:
   TSTag: "blue"
   TSTagDelimiter: "line_grey"
   # -- END Treesitter --
-  # -- Start Languages --
+  # -- START Languages --
   # HTML (keep consistent with Markdown, below)
   htmlArg: "dark_yellow"
   htmlBold: "dark_yellow - b"
@@ -189,102 +190,65 @@ highlights:
   htmlTitle: "white"
 
   # Markdown (keep consistent with HTML, above)
-  # call s:h("markdownBlockquote", { "fg": s:comment_grey })
-  # call s:h("markdownBold", { "fg": s:dark_yellow, "gui": "bold", "cterm": "bold" })
-  # call s:h("markdownCode", { "fg": s:green })
-  # call s:h("markdownCodeBlock", { "fg": s:green })
-  # call s:h("markdownCodeDelimiter", { "fg": s:green })
-  # call s:h("markdownH1", { "fg": s:blue })
-  # call s:h("markdownH2", { "fg": s:blue })
-  # call s:h("markdownH3", { "fg": s:blue })
-  # call s:h("markdownH4", { "fg": s:blue })
-  # call s:h("markdownH5", { "fg": s:blue })
-  # call s:h("markdownH6", { "fg": s:blue })
-  # call s:h("markdownHeadingDelimiter", { "fg": s:red })
-  # call s:h("markdownHeadingRule", { "fg": s:comment_grey })
-  # call s:h("markdownId", { "fg": s:purple })
-  # call s:h("markdownIdDeclaration", { "fg": s:blue })
-  # call s:h("markdownIdDelimiter", { "fg": s:purple })
-  # call s:h("markdownItalic", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
-  # call s:h("markdownLinkDelimiter", { "fg": s:purple })
-  # call s:h("markdownLinkText", { "fg": s:blue })
-  # call s:h("markdownListMarker", { "fg": s:red })
-  # call s:h("markdownOrderedListMarker", { "fg": s:red })
-  # call s:h("markdownRule", { "fg": s:comment_grey })
-  # call s:h("markdownUrl", { "fg": s:cyan, "gui": "underline", "cterm": "underline" })
-  # old stuff
-  # diffAdded: "green"
-  # diffRemoved: "red"
-  # diffFileId: "blue - br"
-  # diffFile: "gray"
-  # diffNewFile: "green"
-  # diffOldFile: "red"
-  # rubyArrayDelimiter: "azure"
-  # rubyCurlyBlockDelimiter: "azure"
-  # SignColumn: ". darkgray ."
-  # GitGutterAdd: "green darkgray"
-  # GitGutterDelete: "red darkgray"
-  # GitGutterChange: "blue darkgray"
-  # ToolbarLine: ". darkgray"
-  # ToolbarButton: "suvagray - r"
-  # debugPc: "- bg_cyan"
-  # debugBreakpoint: "red - r"
-  # CoC
+  markdownBlockquote: "line_grey"
+  markdownBold: "dark_yellow - b"
+  markdownCode: "green"
+  markdownCodeBlock: "green"
+  markdownCodeDelimiter: "green"
+  markdownH1: "blue"
+  markdownH2: "blue"
+  markdownH3: "blue"
+  markdownH4: "blue"
+  markdownH5: "blue"
+  markdownH6: "blue"
+  markdownHeadingDelimiter: "red"
+  markdownHeadingRule: "line_grey"
+  markdownId: "purple"
+  markdownIdDeclaration: "blue"
+  markdownIdDelimiter: "purple"
+  markdownItalic: "purple - i"
+  markdownLinkDelimiter: "purple"
+  markdownLinkText: "blue"
+  markdownListMarker: "red"
+  markdownOrderedListMarker: "red"
+  markdownRule: "line_grey"
+  markdownUrl: "cyan - u"
+  # -- END Languages --
+
+  # -- START CoC --
   CocExplorerIndentLine: "line_grey"
   CocExplorerBufferRoot: "cyan"
-# terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
-
-# Debug
-# Ignore
-# Tag
-# Delimiter
-# SpecialChar
-# Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
-# CursorIM", {}) " like Cursor, but used when in IME mode
-# FoldColumn", {}) " 'foldcolumn'
-# SignColumn", {}) " column where signs are displayed
-# Conceal
-# CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-# MoreMsg", {}) " more-prompt
-# ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
-# TabLineFill", {}) " tab pages line, where there are no labels
-
-# SpecialKey: "orange"
-
-# ErrorMsg: "red - br"
-# WarningMsg: "orange - br"
-# ModeMsg: "yellow - br"
-# MoreMsg: "green - br"
-# Question: "cyan - br"
-# Directory: "blue - b"
-
-# DiffAdd: "- bg_green"
-# DiffDelete: "bg_red bg_red"
-# DiffChange: "- bg_blue"
-# DiffText: "- bg_cyan"
-# Folded: "blue darkgray i"
-# FoldColumn: "blue bg"
-# Pmenu: "fg darkgray"
-# PmenuSel: "blue darkgray br"
-# PmenuSbar: "- darkgray"
-# PmenuThumb: "- yellow"
-# WildMenu: "blue darkgray br"
-# LineNr: "orange"
-# CursorLine: "- darkgray"
-# CursorColumn: "- darkgray"
-# CursorLineNr: "yellow - b"
-
-# SpellBad: ". . . red"
-# SpellCap: ". . . azure"
-# SpellRare: ". . . magenta"
-# SpellLocal: ". . . cyan"
-# TabLineFill: ""
-# TabLine: "gray darkgray"
-# TabLineSel: "blue darkgray"
-# StatusLine: "darkgray fg r"
-# StatusLineNC: "darkgray gray r"
-# StatusLineTerm: "darkgray green r"
-# StatusLineTermNC: "darkgray gray r"
-# VertSplit: "darkgray fg r"
-# ColorColumn: "- darkgray"
-# QuickFixLine: "- bg_cyan"
+  CocExplorerFileRoot: "cyan"
+  CocExplorerBufferFullPath: "line_grey"
+  CocExplorerFileFullPath: "line_grey"
+  # -- END CoC --
+  # old stuff
+  diffAdded: "green"
+  diffRemoved: "red"
+  diffFileId: "blue - br"
+  diffFile: "special_grey"
+  diffNewFile: "green"
+  diffOldFile: "red"
+  # ToolbarLine: ". darkgray"
+  # ToolbarButton: "suvagray - r"
+  debugPc: "- cyan"
+  debugBreakpoint: "red - r"
+  # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
+  # -- Other junk you can define --
+  # Debug
+  # Ignore
+  # Tag
+  # Delimiter
+  # SpecialChar
+  # Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
+  # CursorIM", {}) " like Cursor, but used when in IME mode
+  # FoldColumn", {}) " 'foldcolumn'
+  # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+  # MoreMsg", {}) " more-prompt
+  # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
+  # ErrorMsg: "red - br"
+  # WarningMsg: "orange - br"
+  # ModeMsg: "yellow - br"
+  # MoreMsg: "green - br"
+  # Question: "cyan - br"
+  # Directory: "blue - b"
