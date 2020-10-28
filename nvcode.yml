@@ -227,12 +227,12 @@ highlights:
   StartifySelect: "green"
   StartifyBracket: "blue"
   StartifySpecial: "cyan"
-  StartifyVar: "vivid_blue"
-  StartifyPath: "purple"
-  StartifyFile: "blue"
+  StartifyVar: "blue"
+  StartifyPath: "blue"
+  StartifyFile: "vivid_blue"
   StartifySlash: "blue"
   StartifyHeader: "green"
-  StartifySection: "cyan"
+  StartifySection: "purple"
   StartifyFooter: "green"
   # -- START Startify --
   # old stuff
