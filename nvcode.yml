@@ -227,6 +227,7 @@ highlights:
   CocExplorerFileReadonly: "purple"
   CocExplorerFileModified: "purple"
   CocExplorerFileHidden: "line_grey"
+  CocExplorerHelpLine: "purple"
   # -- END CoC --
   # -- START Startify --
   StartifyNumber: "light_green"
